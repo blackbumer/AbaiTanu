@@ -1,67 +1,820 @@
 <!DOCTYPE html>
 <!-- saved from url=(0032)http://127.0.0.1:8000/iran-gaiyp -->
-<html lang="en" data-dme-installation-id="xwaxjjxckj" data-dme="on" data-dme-dark-mode="off"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
-body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
-</style>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<html lang="en" data-dme-installation-id="xwaxjjxckj" data-dme="on" data-dme-dark-mode="off">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            body {
+                transition: opacity ease-in 0.2s;
+            }
 
-    <meta property="og:title" content="Abai Qunanbaiuly - The Great Kazakh Poet">
-    <meta property="og:description" content="Explore the life, philosophy, and poetry of Abai Qunanbaiuly, a cultural reformer and the father of Kazakh literature.">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Abai Qunanbaiuly - The Great Kazakh Poet">
-    <meta name="twitter:description" content="Explore the life, philosophy, and poetry of Abai Qunanbaiuly, a cultural reformer and the father of Kazakh literature.">
+            body[unresolved] {
+                opacity: 0;
+                display: block;
+                overflow: hidden;
+                position: relative;
+            }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <meta property="og:title" content="Abai Qunanbaiuly - The Great Kazakh Poet">
+        <meta property="og:description" content="Explore the life, philosophy, and poetry of Abai Qunanbaiuly, a cultural reformer and the father of Kazakh literature.">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Abai Qunanbaiuly - The Great Kazakh Poet">
+        <meta name="twitter:description" content="Explore the life, philosophy, and poetry of Abai Qunanbaiuly, a cultural reformer and the father of Kazakh literature.">
+        <link rel="icon" type="image/png" href="http://127.0.0.1:8000/static/abai-muse/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link href="./iran-gaiyp_files/css2" rel="stylesheet">
+        <script>
+            (function() {
+                var target = '/iran-gaiyp';
+                if (location.pathname !== target) {
+                    history.replaceState(null, '', target + location.search + location.hash);
+                }
+            }
+            )();
+        </script>
+        <script type="module" src="./iran-gaiyp_files/index-Dv4_u_pz.js"></script>
+        <link rel="stylesheet" href="./iran-gaiyp_files/index-BlFxgXNz.css">
+    </head>
+    <body style="overflow: unset;">
+        <div id="root">
+            <div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events: none;">
+                <ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol>
+            </div>
+            <div class="min-h-screen bg-background font-sans selection:bg-primary/20">
+                <nav class="fixed top-0 w-full z-[9999] bg-white border-b border-gray-200 h-20">
+                    <div class="container mx-auto px-6 h-full flex items-center justify-between">
+                        <a href="/">
+                            <a class="z-[10001]">
+                                <img alt="Logo" class="h-12 w-12 rounded-full object-cover" src="data:image/png;base64,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">
+                            </a>
+                        </a>
+                        <div class="hidden md:flex items-center gap-8">
+                            <a href="/#biography" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Өмірбаяны</a>
+                            <a href="/book-of-words/" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Қара сөздер</a>
+                            <a href="/#abai_tanu" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Абай Тану</a>
+                            <a href="/iran-gaiyp/" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Иран-Ғайып</a>
+                            <a href="/tolyq_adam/" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Толық Адам</a>
+                            <a href="/tests/" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Тест</a>
+                            <a href="/#poetry" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Өлеңдер</a>
+                            <a href="/#legacy" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Мұрасы</a>
+                        </div>
+                        <button class="md:hidden p-2 text-black z-[10001] relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true">
+                                <path d="M4 5h16"></path>
+                                <path d="M4 12h16"></path>
+                                <path d="M4 19h16"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="fixed inset-0 bg-black/80 backdrop-blur-sm transition-opacity duration-300 md:hidden opacity-0 invisible z-[9999]"></div>
+                    <div class="fixed top-0 right-0 h-screen w-[75%] sm:w-[50%] transform transition-transform duration-500 ease-in-out md:hidden z-[10000] translate-x-full" style="background-color: rgb(255, 255, 255);">
+                        <div class="flex flex-col h-full items-center justify-center space-y-8 px-6">
+                            <a href="/#biography" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Өмірбаяны</a>
+                            <a href="/book-of-words/" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Қара сөздер</a>
+                            <a href="/#abai_tanu" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Абай Тану</a>
+                            <a href="/iran-gaiyp/" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Иран-Ғайып</a>
+                            <a href="/tolyq_adam/" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Толық Адам</a>
+                            <a href="/tests/" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Тест</a>
+                            <a href="/#poetry" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Өлеңдер</a>
+                            <a href="/#legacy" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Мұрасы</a>
+                        </div>
+                    </div>
+                </nav>
+                <section class="relative min-h-screen flex items-center pt-20 overflow-hidden section-reveal">
+                    <div class="absolute inset-0 z-0 opacity-[0.03] pointer-events-none pattern-drift" style="background-image: url(&quot;/static/abai-muse/assets/kazakh-pattern-Ba0p9xHQ.png&quot;); background-size: 400px;"></div>
+                    <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+                        <div class="order-2 md:order-1 space-y-8 animate-fade-up">
+                            <div class="space-y-2">
+                                <h2 class="text-secondary font-sans uppercase tracking-[0.2em] text-sm font-semibold">ақын, драматург.</h2>
+                                <h1 class="text-5xl md:text-7xl lg:text-8xl font-serif font-medium text-foreground leading-[0.9]">
+                                    Иран <br>Ғайып
+                                </h1>
+                            </div>
+                            <p class="text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6">"Әдебиетте поэзия, драматургия жанрында еңбек етіп, Абай тұлғасына арналған «Мен ішпеген у бар ма?» атты драмалық дастан жазған."</p>
+                            <div class="pt-4 flex flex-wrap items-center gap-4">
+                                <a href="#biography" class="group inline-flex items-center gap-2 text-primary font-medium uppercase tracking-widest text-sm hover:gap-4 transition-all">
+                                    Өмір жолын оқу <span class="text-xl">→</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="order-1 md:order-2 relative animate-fade-up delay-150">
+                            <div class="aspect-[3/4] rounded-sm overflow-hidden shadow-2xl relative">
+                                <div class="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent z-10"></div>
+                                <img alt="Абай Құнанбайұлының портреті" class="w-full h-full object-cover transform transition-transform duration-[20s] hover:scale-110" src="./iran-gaiyp_files/iran_g-DoyvyYrs.png">
+                            </div>
+                            <div class="absolute -bottom-6 -right-6 w-full h-full border-2 border-secondary/30 -z-10 rounded-sm"></div>
+                        </div>
+                    </div>
+                </section>
+                <section id="biography" class="py-24 bg-muted/30 relative section-reveal">
+                    <div class="container mx-auto px-6 max-w-4xl">
+                        <div class="space-y-12">
+                            <div class="text-center space-y-4">
+                                <h2 class="text-3xl md:text-4xl font-serif text-primary">Ағартушының өмірі</h2>
+                                <div class="w-24 h-1 bg-secondary mx-auto"></div>
+                            </div>
+                            <div class="prose prose-lg prose-stone mx-auto text-muted-foreground first-letter:text-5xl first-letter:font-serif first-letter:text-primary first-letter:mr-3 first-letter:float-left">
+                                <p>Иранбек &nbsp;(Иран-Ғайып)&nbsp;Оразбаев &nbsp;-&nbsp;1947 жылы Қызылорда облысы, Сырдария ауданында туған. Қазақ политехникалық институтының таукен факультетін (1970), Мәскеудегі М.Горький атындағы Әдебиет институты жанындағы жоғары әдеби курсты бітірген (1980). Әр жылдары Қызылорда облысы «Білім» қоғамында референт, «Жазушы» баспасында редактор, «Қазақ әдебиеті» газеті редакциясында поэзия бөлімінің меңгерушісі, ҚР Білім, мәдениет комитетінің редакциялықрепертуарлық коллегиясының бас редакторы қызметтерін атқарды. 1998 жылдан Қазақтың мемлекеттік Ғ.Мүсірепов атындағы Жастар мен балалар театрының әдебиет бөлімін басқарды.</p>
+                                <p>
+                                <div class="pt-4 flex flex-wrap items-center gap-4 mb-3"></div>
+                                Алғашқы «Жүрек жырлайды» атты жыр жинағы 1974 жылы жарық көрді. Кейін «Тың құрбаны», «Хайуандық комедия», «Күшігінен таланған», «Мен ішпеген у бар ма?», «Батқан кеменің бейбақтары», «Желжуан», «Құдай қарғағандар», «Жамбылдың қызыл жолбарысы», «Негізгі шаруа», «Қанына тартқан қыңырлар», «Алтын адам», «Алтын ажал», «Киелі күнә», «Хан–Абылай–Сабалақ», «Жәбекшаған», «ГүлНәр», «Театр Романы», «Қорқыттың көрі», «Мауглидің оралуы», «Махамбет», «Қашғария», «Былыққа батқан қала», «Керкеткен» атты драмалық дастандарын жазды. «Глаза ночи» (1983), «Царь слова»(1984), «Наследник» (1988) атты кітаптары орыс тілінде жарық көрді. 1990 жылы үш томдық, ал 2006 жылы 13 томдық таңдамалысы оқырмандар қолына тиді.
+</p><p>
+<div class="pt-4 flex flex-wrap items-center gap-4 mb-3"></div>
+2002 жылы «Қорқыттың көрі» атты жыр кітабы үшін ҚР Мемлекеттік сыйлығының лауреаты атанды. Тәуелсіз Қазақстан Республикасының тұңғыш өткен жазба ақындар жырмүшәйрасының бас жүлдегері.</p><p>
+<div class="pt-4 flex flex-wrap items-center gap-4 mb-3"></div>
+Шығармалары: Жүрек жырлайды. Өлеңдер. 1974; Жеті қазына. Балладалар мен поэма. 1977; Түннің көзі. Өлеңдер. А., 1980; Өмірөлең. Жыр кітабы. А., 1982; Молодые поэты Средней Азии и Казахстана. М., «Молодая гвардия», 1982; Глаза ночи. Стихи. А., 1983; Царь слова. Стихи, поэма. М., «Советский писатель», 1984; Сұлулық сарасы. Өлеңдер, поэмалар. А., 1985; Дүниежарық. Жыр кітабы. 1987; Наследник. Поэма. 1988; Батқан кеменің бейбақтары. Дастандар. 1990; Мұнар, мұнар, мұнарым… Қасірет кітабы. 1992; Иран бағы. Таңдамалы. 1995; Сөз патша. Таңдамалы. 1996; Жыр әлемі. Жыр кітабы. 1996.</p></div>
+<div class="grid md:grid-cols-3 gap-6 pt-8">
+    <div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow">
+        <div class="p-6 text-center space-y-2">
+            <span class="text-4xl font-serif text-secondary opacity-50 block">1947</span>
+            <h3 class="font-bold text-foreground">Туған жылы</h3>
+            <p class="text-sm text-muted-foreground">Қызылорда облысы, Сырдария ауданында туған</p>
+        </div>
+    </div>
+    <div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow">
+        <div class="p-6 text-center space-y-2">
+            <span class="text-4xl font-serif text-secondary opacity-50 block">1974</span>
+            <h3 class="font-bold text-foreground">«Жүрек жырлайды»</h3>
+            <p class="text-sm text-muted-foreground">Алғашқы «Жүрек жырлайды» атты жыр жинағы 1974 жылы жарық көрді.</p>
+        </div>
+    </div>
+    <div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow">
+        <div class="p-6 text-center space-y-2">
+            <span class="text-4xl font-serif text-secondary opacity-50 block">1980</span>
+            <h3 class="font-bold text-foreground"></h3>
+            <p class="text-sm text-muted-foreground">Мәскеудегі М.Горький атындағы Әдебиет институты жанындағы жоғары әдеби курсты бітірген (1980)</p>
+        </div>
+    </div>
+    <div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow">
+        <div class="p-6 text-center space-y-2">
+            <span class="text-4xl font-serif text-secondary opacity-50 block">1998</span>
+            <h3 class="font-bold text-foreground">Жастар мен балалар театры</h3>
+            <p class="text-sm text-muted-foreground">Қазақтың мемлекеттік Ғ.Мүсірепов атындағы Жастар мен балалар театрының әдебиет бөлімін басқарды</p>
+        </div>
+    </div>
+    <div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow">
+        <div class="p-6 text-center space-y-2">
+            <span class="text-4xl font-serif text-secondary opacity-50 block">1990</span>
+            <h3 class="font-bold text-foreground"></h3>
+            <p class="text-sm text-muted-foreground">Үш томдық, ал 2006 жылы 13 томдық таңдамалысы оқырмандар қолына тиді.</p>
+        </div>
+    </div>
+    <div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow">
+        <div class="p-6 text-center space-y-2">
+            <span class="text-4xl font-serif text-secondary opacity-50 block">2002</span>
+            <h3 class="font-bold text-foreground">«Қорқыттың көрі»</h3>
+            <p class="text-sm text-muted-foreground">Жыр кітабы үшін ҚР Мемлекеттік сыйлығының лауреаты атанды.</p>
+        </div>
+    </div>
+</div>
+</div></div></section>
+<section id="poetry" class="py-24 bg-background section-reveal">
+    <div class="container mx-auto px-6">
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+            <h2 class="text-4xl font-serif text-foreground">Өлеңдер</h2>
+            <p class="text-muted-foreground">— Иранбек Әбітайұлы Оразбаев (Иран-Ғайып), ақын, драматург</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50">
+                <div class="p-8 space-y-6">
+                    <h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Хамит Ерғалиевке</h3>
+                    <div class="space-y-2 text-center">
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Әкем десем –</p>
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Кім сенеді?!...</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50">
+                <div class="p-8 space-y-6">
+                    <h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Жарасқанға</h3>
+                    <div class="space-y-2 text-center">
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Жанды салып азапқа,</p>
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Басты тығып...</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50">
+                <div class="p-8 space-y-6">
+                    <h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Нұрахметке</h3>
+                    <div class="space-y-2 text-center">
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Ес көрдік –</p>
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Жалған бәсі артпайтынын...</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50">
+                <div class="p-8 space-y-6">
+                    <h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Анда барсаң</h3>
+                    <div class="space-y-2 text-center">
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Анда барсаң –</p>
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Иран-Ғайып налыған...</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50">
+                <div class="p-8 space-y-6">
+                    <h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Тауқыметің зор болды</h3>
+                    <div class="space-y-2 text-center">
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Тауқыметің зор болды,</p>
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Не көрмедің, Торғайым?!</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50">
+                <div class="p-8 space-y-6">
+                    <h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Басым</h3>
+                    <div class="space-y-2 text-center">
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Басым –</p>
+                        <p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Екі Иінде,</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="poetry" class="py-24 bg-white section-reveal">
+    <div class="container mx-auto px-6">
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+            <h2 class="text-4xl font-serif text-foreground">Ұлт театрына 95 жыл- Иран-Ғайып</h2>
+        </div>
+        <div class="w-full max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-2xl mb-12">
+            <div class="w-full max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-2xl">
+                <video class="w-full h-auto rounded-2xl" controls="" src="/static/abai-muse/assets/IranG95Ult-M6QodiA0.mp4"></video>
+            </div>
+        </div>
+        <div class="prose prose-lg prose-stone mx-auto text-muted-foreground first-letter:text-5xl first-letter:font-serif first-letter:text-primary first-letter:mr-3 first-letter:float-left">
+            <div class="pt-4 flex flex-wrap items-center gap-4 mb-6">
+                <p>Ақын, драматург Иран-Ғайып театр ұжымын 95 жылдық мерейтойымен құттықтайды. Иран-Ғайып біздің театр сахнасында сахналанған “Мен ішпеген у бар ма?”, “Қорқыттың көрі” секілді спектакльдердің авторы.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="poetry" class="py-24 bg-background section-reveal">
+    <div class="container mx-auto px-6">
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+            <h2 class="text-4xl font-serif text-foreground">Ақын Иран-Ғайып 75 жасқа толды</h2>
+        </div>
+        <div class="w-full max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-2xl mb-12">
+            <div class="w-full max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-2xl">
+                <video class="w-full h-auto rounded-2xl" controls="" src="/static/abai-muse/assets/IranG75YearsVideo-1qWuZEbK.mp4"></video>
+            </div>
+        </div>
+        <div class="prose prose-lg prose-stone mx-auto text-muted-foreground first-letter:text-5xl first-letter:font-serif first-letter:text-primary first-letter:mr-3 first-letter:float-left">
+            <div class="pt-4 flex flex-wrap items-center gap-4 mb-6">
+                <p>Алматыда ақын, драмматург, Мемлекеттік сыйлықтың иегері Иран-Ғайыптың 75 жылдық мерейтойына орай шығармашылық кеш өтті. Ақын өз туындыларында жаратылыстың ұлы феномені - адамды басты нысана ете отырып, оның бүкіл болмысындағы күйініші мен сүйінішін, қуанышы мен мұңын сезімталдықпен жеткізе білді. Иран-Ғайыптың алғашқы «Жүрек жырлайды» атты жинағы 1974 жылы жарық көрді. Ал 2002 жылы «Қорқыттың көрі» атты жыр кітабы үшін Мемлекеттік сыйлықтың лауреаты атанды. Сондай-ақ тәуелсіз Қазақстанда тұңғыш өткен жазба ақындар жыр мүшайрасының бас жүлдесін иеленген. Иран-Ғайыптың жақұт жырлары, өлмес өлеңдері мен поэмалары, аудармалары қазақ поэзиясының алтын қорына енген.</p>
+            </div>
+            <h2 class="text-secondary font-sans uppercase tracking-[0.2em] text-sm font-semibold mb-6">Ереке Құлкенов, жазушы:</h2>
+            <p class="text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6">"Алғашқы өлеңінен бастап қазақ поэзиясына өзінің сара жолын салып келген ерекше ақын. Оның жазу стилі, ойын жеткізе білуі, ойын ірікпей айта алатыны, батылдығы, ержүректігі көп ақындарда жоқ нәрсе. Сондықтан Иранбектің жөні бөлек."</p>
+        </div>
+    </div>
+</section>
+<footer id="legacy" class="bg-foreground text-background py-16">
+    <div class="container mx-auto px-6 flex flex-col items-center text-center space-y-8">
+        <div class="text-3xl font-serif font-bold tracking-tight text-background">Абай</div>
+        <div class="w-12 h-0.5 bg-secondary/50"></div>
+        <p class="max-w-md text-background/60 font-light">"Адам болам десеңіз: ақыл, жүрек, қайратты тең ұстаңыз."</p>
+        <div class="text-sm text-background/40 pt-8">© 2026 Абай Құнанбайұлына арналған жоба.</div>
+    </div>
+</footer>
+</div></div>
+<veepn-lock-screen>
+    <template shadowrootmode="open">
+        <style>
+            html {
+                box-sizing: border-box;
+                text-size-adjust: 100%;
+                word-break: normal;
+                tab-size: 4
+            }
 
-    <link rel="icon" type="image/png" href="http://127.0.0.1:8000/static/abai-muse/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="./iran-gaiyp_files/css2" rel="stylesheet">
-    <script>(function(){var target='/iran-gaiyp';if(location.pathname!==target){history.replaceState(null,'',target+location.search+location.hash);}})();</script>
-    <script type="module" crossorigin="" src="./iran-gaiyp_files/index-Dv4_u_pz.js"></script>
-    <link rel="stylesheet" crossorigin="" href="./iran-gaiyp_files/index-BlFxgXNz.css">
-  </head>
-  <body style="overflow: unset;">
-    <div id="root"><div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events: none;"><ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol></div><div class="min-h-screen bg-background font-sans selection:bg-primary/20"><nav class="fixed top-0 w-full z-[9999] bg-white border-b border-gray-200 h-20"><div class="container mx-auto px-6 h-full flex items-center justify-between"><a href="/"><a class="z-[10001]"><img alt="Logo" class="h-12 w-12 rounded-full object-cover" src="data:image/png;base64,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"></a></a><div class="hidden md:flex items-center gap-8"><a href="/#biography" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Өмірбаяны</a><a href="/book-of-words/" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Қара сөздер</a><a href="/#abai_tanu" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Абай Тану</a><a href="/iran-gaiyp/" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Иран-Ғайып</a><a href="/tolyq_adam/" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Толық Адам</a><a href="/tests/" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Тест</a><a href="/#poetry" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Өлеңдер</a><a href="/#legacy" class="text-sm font-medium hover:text-primary uppercase tracking-tighter">Мұрасы</a></div><button class="md:hidden p-2 text-black z-[10001] relative"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg></button></div><div class="fixed inset-0 bg-black/80 backdrop-blur-sm transition-opacity duration-300 md:hidden opacity-0 invisible z-[9999]"></div><div class="fixed top-0 right-0 h-screen w-[75%] sm:w-[50%] transform transition-transform duration-500 ease-in-out md:hidden z-[10000] translate-x-full" style="background-color: rgb(255, 255, 255);"><div class="flex flex-col h-full items-center justify-center space-y-8 px-6"><a href="/#biography" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Өмірбаяны</a><a href="/book-of-words/" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Қара сөздер</a><a href="/#abai_tanu" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Абай Тану</a><a href="/iran-gaiyp/" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Иран-Ғайып</a><a href="/tolyq_adam/" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Толық Адам</a><a href="/tests/" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Тест</a><a href="/#poetry" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Өлеңдер</a><a href="/#legacy" class="text-lg font-bold text-black uppercase text-center transition-all transform translate-x-10 opacity-0" style="transition-delay: 0ms; display: block;">Мұрасы</a></div></div></nav><section class="relative min-h-screen flex items-center pt-20 overflow-hidden section-reveal"><div class="absolute inset-0 z-0 opacity-[0.03] pointer-events-none pattern-drift" style="background-image: url(&quot;/static/abai-muse/assets/kazakh-pattern-Ba0p9xHQ.png&quot;); background-size: 400px;"></div><div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10"><div class="order-2 md:order-1 space-y-8 animate-fade-up"><div class="space-y-2"><h2 class="text-secondary font-sans uppercase tracking-[0.2em] text-sm font-semibold">ақын, драматург.</h2><h1 class="text-5xl md:text-7xl lg:text-8xl font-serif font-medium text-foreground leading-[0.9]">Иран <br> Ғайып</h1></div><p class="text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6">"Әдебиетте поэзия, драматургия жанрында еңбек етіп, Абай тұлғасына арналған «Мен ішпеген у бар ма?» атты драмалық дастан жазған."</p><div class="pt-4 flex flex-wrap items-center gap-4"><a href="#biography" class="group inline-flex items-center gap-2 text-primary font-medium uppercase tracking-widest text-sm hover:gap-4 transition-all">Өмір жолын оқу <span class="text-xl">→</span></a></div></div><div class="order-1 md:order-2 relative animate-fade-up delay-150"><div class="aspect-[3/4] rounded-sm overflow-hidden shadow-2xl relative"><div class="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent z-10"></div><img alt="Абай Құнанбайұлының портреті" class="w-full h-full object-cover transform transition-transform duration-[20s] hover:scale-110" src="./iran-gaiyp_files/iran_g-DoyvyYrs.png"></div><div class="absolute -bottom-6 -right-6 w-full h-full border-2 border-secondary/30 -z-10 rounded-sm"></div></div></div></section><section id="biography" class="py-24 bg-muted/30 relative section-reveal"><div class="container mx-auto px-6 max-w-4xl"><div class="space-y-12"><div class="text-center space-y-4"><h2 class="text-3xl md:text-4xl font-serif text-primary">Ағартушының өмірі</h2><div class="w-24 h-1 bg-secondary mx-auto"></div></div><div class="prose prose-lg prose-stone mx-auto text-muted-foreground first-letter:text-5xl first-letter:font-serif first-letter:text-primary first-letter:mr-3 first-letter:float-left"><p>Иранбек&nbsp;(Иран-Ғайып)&nbsp;Оразбаев&nbsp;-&nbsp;1947 жылы Қызылорда облысы, Сырдария ауданында туған. Қазақ политехникалық институтының таукен факультетін (1970), Мәскеудегі М.Горький атындағы Әдебиет институты жанындағы жоғары әдеби курсты бітірген (1980). Әр жылдары Қызылорда облысы «Білім» қоғамында референт, «Жазушы» баспасында редактор, «Қазақ әдебиеті» газеті редакциясында поэзия бөлімінің меңгерушісі, ҚР Білім, мәдениет комитетінің редакциялықрепертуарлық коллегиясының бас редакторы қызметтерін атқарды. 1998 жылдан Қазақтың мемлекеттік Ғ.Мүсірепов атындағы Жастар мен балалар театрының әдебиет бөлімін басқарды.</p><p><div class="pt-4 flex flex-wrap items-center gap-4 mb-3"></div>Алғашқы «Жүрек жырлайды» атты жыр жинағы 1974 жылы жарық көрді. Кейін «Тың құрбаны», «Хайуандық комедия», «Күшігінен таланған», «Мен ішпеген у бар ма?», «Батқан кеменің бейбақтары», «Желжуан», «Құдай қарғағандар», «Жамбылдың қызыл жолбарысы», «Негізгі шаруа», «Қанына тартқан қыңырлар», «Алтын адам», «Алтын ажал», «Киелі күнә», «Хан–Абылай–Сабалақ», «Жәбекшаған», «ГүлНәр», «Театр Романы», «Қорқыттың көрі», «Мауглидің оралуы», «Махамбет», «Қашғария», «Былыққа батқан қала», «Керкеткен» атты драмалық дастандарын жазды. «Глаза ночи» (1983), «Царь слова»(1984), «Наследник» (1988) атты кітаптары орыс тілінде жарық көрді. 1990 жылы үш томдық, ал 2006 жылы 13 томдық таңдамалысы оқырмандар қолына тиді.</p><p><div class="pt-4 flex flex-wrap items-center gap-4 mb-3"></div>2002 жылы «Қорқыттың көрі» атты жыр кітабы үшін ҚР Мемлекеттік сыйлығының лауреаты атанды. Тәуелсіз Қазақстан Республикасының тұңғыш өткен жазба ақындар жырмүшәйрасының бас жүлдегері.</p><p><div class="pt-4 flex flex-wrap items-center gap-4 mb-3"></div>Шығармалары: Жүрек жырлайды. Өлеңдер. 1974; Жеті қазына. Балладалар мен поэма. 1977; Түннің көзі. Өлеңдер. А., 1980; Өмірөлең. Жыр кітабы. А., 1982; Молодые поэты Средней Азии и Казахстана. М., «Молодая гвардия», 1982; Глаза ночи. Стихи. А., 1983; Царь слова. Стихи, поэма. М., «Советский писатель», 1984; Сұлулық сарасы. Өлеңдер, поэмалар. А., 1985; Дүниежарық. Жыр кітабы. 1987; Наследник. Поэма. 1988; Батқан кеменің бейбақтары. Дастандар. 1990; Мұнар, мұнар, мұнарым… Қасірет кітабы. 1992; Иран бағы. Таңдамалы. 1995; Сөз патша. Таңдамалы. 1996; Жыр әлемі. Жыр кітабы. 1996.</p></div><div class="grid md:grid-cols-3 gap-6 pt-8"><div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow"><div class="p-6 text-center space-y-2"><span class="text-4xl font-serif text-secondary opacity-50 block">1947</span><h3 class="font-bold text-foreground">Туған жылы</h3><p class="text-sm text-muted-foreground">Қызылорда облысы, Сырдария ауданында туған</p></div></div><div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow"><div class="p-6 text-center space-y-2"><span class="text-4xl font-serif text-secondary opacity-50 block">1974</span><h3 class="font-bold text-foreground">«Жүрек жырлайды»</h3><p class="text-sm text-muted-foreground">Алғашқы «Жүрек жырлайды» атты жыр жинағы 1974 жылы жарық көрді.</p></div></div><div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow"><div class="p-6 text-center space-y-2"><span class="text-4xl font-serif text-secondary opacity-50 block">1980</span><h3 class="font-bold text-foreground"></h3><p class="text-sm text-muted-foreground">Мәскеудегі М.Горький атындағы Әдебиет институты жанындағы жоғары әдеби курсты бітірген (1980)</p></div></div><div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow"><div class="p-6 text-center space-y-2"><span class="text-4xl font-serif text-secondary opacity-50 block">1998</span><h3 class="font-bold text-foreground">Жастар мен балалар театры</h3><p class="text-sm text-muted-foreground">Қазақтың мемлекеттік Ғ.Мүсірепов атындағы Жастар мен балалар театрының әдебиет бөлімін басқарды</p></div></div><div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow"><div class="p-6 text-center space-y-2"><span class="text-4xl font-serif text-secondary opacity-50 block">1990</span><h3 class="font-bold text-foreground"></h3><p class="text-sm text-muted-foreground">Үш томдық, ал 2006 жылы 13 томдық таңдамалысы оқырмандар қолына тиді.</p></div></div><div class="rounded-xl border text-card-foreground bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow"><div class="p-6 text-center space-y-2"><span class="text-4xl font-serif text-secondary opacity-50 block">2002</span><h3 class="font-bold text-foreground">«Қорқыттың көрі»</h3><p class="text-sm text-muted-foreground">Жыр кітабы үшін ҚР Мемлекеттік сыйлығының лауреаты атанды.</p></div></div></div></div></div></section><section id="poetry" class="py-24 bg-background section-reveal"><div class="container mx-auto px-6"><div class="text-center max-w-2xl mx-auto mb-16 space-y-4"><h2 class="text-4xl font-serif text-foreground">Өлеңдер</h2><p class="text-muted-foreground">— Иранбек Әбітайұлы Оразбаев (Иран-Ғайып), ақын, драматург</p></div><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"><div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50"><div class="p-8 space-y-6"><h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Хамит Ерғалиевке</h3><div class="space-y-2 text-center"><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Әкем десем –</p><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Кім сенеді?!...</p></div><div class="flex justify-center"><button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button></div></div></div><div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50"><div class="p-8 space-y-6"><h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Жарасқанға</h3><div class="space-y-2 text-center"><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Жанды салып азапқа,</p><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Басты тығып...</p></div><div class="flex justify-center"><button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button></div></div></div><div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50"><div class="p-8 space-y-6"><h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Нұрахметке</h3><div class="space-y-2 text-center"><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Ес көрдік –</p><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Жалған бәсі артпайтынын...</p></div><div class="flex justify-center"><button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button></div></div></div><div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50"><div class="p-8 space-y-6"><h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Анда барсаң</h3><div class="space-y-2 text-center"><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Анда барсаң –</p><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Иран-Ғайып налыған...</p></div><div class="flex justify-center"><button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button></div></div></div><div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50"><div class="p-8 space-y-6"><h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Тауқыметің зор болды</h3><div class="space-y-2 text-center"><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Тауқыметің зор болды,</p><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Не көрмедің, Торғайым?!</p></div><div class="flex justify-center"><button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button></div></div></div><div class="rounded-xl border bg-card text-card-foreground shadow group transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-secondary/50"><div class="p-8 space-y-6"><h3 class="text-2xl font-serif text-primary group-hover:text-secondary transition-colors text-center">Басым</h3><div class="space-y-2 text-center"><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Басым –</p><p class="text-muted-foreground font-serif italic text-sm md:text-base leading-relaxed">Екі Иінде,</p></div><div class="flex justify-center"><button type="button" class="text-xs uppercase tracking-widest text-primary hover:text-secondary transition-colors duration-300">Толық оқу</button></div></div></div></div></div></section><section id="poetry" class="py-24 bg-white section-reveal"><div class="container mx-auto px-6"><div class="text-center max-w-2xl mx-auto mb-16 space-y-4"><h2 class="text-4xl font-serif text-foreground">Ұлт театрына 95 жыл- Иран-Ғайып</h2></div><div class="w-full max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-2xl mb-12"><div class="w-full max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-2xl"><video class="w-full h-auto rounded-2xl" controls="" src="/static/abai-muse/assets/IranG95Ult-M6QodiA0.mp4"></video></div></div><div class="prose prose-lg prose-stone mx-auto text-muted-foreground first-letter:text-5xl first-letter:font-serif first-letter:text-primary first-letter:mr-3 first-letter:float-left"><div class="pt-4 flex flex-wrap items-center gap-4 mb-6"><p>Ақын, драматург Иран-Ғайып театр ұжымын 95 жылдық мерейтойымен құттықтайды. Иран-Ғайып біздің театр сахнасында сахналанған “Мен ішпеген у бар ма?”, “Қорқыттың көрі” секілді спектакльдердің авторы.</p></div></div></div></section><section id="poetry" class="py-24 bg-background section-reveal"><div class="container mx-auto px-6"><div class="text-center max-w-2xl mx-auto mb-16 space-y-4"><h2 class="text-4xl font-serif text-foreground">Ақын Иран-Ғайып 75 жасқа толды</h2></div><div class="w-full max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-2xl mb-12"><div class="w-full max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-2xl"><video class="w-full h-auto rounded-2xl" controls="" src="/static/abai-muse/assets/IranG75YearsVideo-1qWuZEbK.mp4"></video></div></div><div class="prose prose-lg prose-stone mx-auto text-muted-foreground first-letter:text-5xl first-letter:font-serif first-letter:text-primary first-letter:mr-3 first-letter:float-left"><div class="pt-4 flex flex-wrap items-center gap-4 mb-6"><p>Алматыда ақын, драмматург, Мемлекеттік сыйлықтың иегері Иран-Ғайыптың 75 жылдық мерейтойына орай шығармашылық кеш өтті. Ақын өз туындыларында жаратылыстың ұлы феномені - адамды басты нысана ете отырып, оның бүкіл болмысындағы күйініші мен сүйінішін, қуанышы мен мұңын сезімталдықпен жеткізе білді. Иран-Ғайыптың алғашқы «Жүрек жырлайды» атты жинағы 1974 жылы жарық көрді. Ал 2002 жылы «Қорқыттың көрі» атты жыр кітабы үшін Мемлекеттік сыйлықтың лауреаты атанды. Сондай-ақ тәуелсіз Қазақстанда тұңғыш өткен жазба ақындар жыр мүшайрасының бас жүлдесін иеленген. Иран-Ғайыптың жақұт жырлары, өлмес өлеңдері мен поэмалары, аудармалары қазақ поэзиясының алтын қорына енген.</p></div><h2 class="text-secondary font-sans uppercase tracking-[0.2em] text-sm font-semibold mb-6">Ереке Құлкенов, жазушы:</h2><p class="text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6">"Алғашқы өлеңінен бастап қазақ поэзиясына өзінің сара жолын салып келген ерекше ақын. Оның жазу стилі, ойын жеткізе білуі, ойын ірікпей айта алатыны, батылдығы, ержүректігі көп ақындарда жоқ нәрсе. Сондықтан Иранбектің жөні бөлек."</p></div></div></section><footer id="legacy" class="bg-foreground text-background py-16"><div class="container mx-auto px-6 flex flex-col items-center text-center space-y-8"><div class="text-3xl font-serif font-bold tracking-tight text-background">Абай</div><div class="w-12 h-0.5 bg-secondary/50"></div><p class="max-w-md text-background/60 font-light">"Адам болам десеңіз: ақыл, жүрек, қайратты тең ұстаңыз."</p><div class="text-sm text-background/40 pt-8">© 2026 Абай Құнанбайұлына арналған жоба.</div></div></footer></div></div>
-  
+            *,:before,:after {
+                background-repeat: no-repeat;
+                box-sizing: border-box
+            }
 
+            :before,:after {
+                text-decoration: inherit;
+                vertical-align: inherit
+            }
 
+            * {
+                padding: 0;
+                margin: 0
+            }
 
+            hr {
+                overflow: visible;
+                height: 0;
+                color: inherit;
+                border: 0;
+                border-top: 1px solid
+            }
 
+            details,main {
+                display: block
+            }
 
+            summary {
+                display: list-item
+            }
 
+            small {
+                font-size: 80%
+            }
 
+            [hidden] {
+                display: none!important
+            }
 
+            abbr[title] {
+                border-bottom: none;
+                text-decoration: underline;
+                text-decoration: underline dotted
+            }
 
+            a {
+                background-color: transparent
+            }
 
+            a:active,a:hover {
+                outline-width: 0
+            }
 
+            code,kbd,pre,samp {
+                font-family: monospace
+            }
 
+            pre {
+                font-size: 1em
+            }
 
+            b,strong {
+                font-weight: bolder
+            }
 
+            sub,sup {
+                font-size: 75%;
+                line-height: 0;
+                position: relative;
+                vertical-align: baseline
+            }
 
+            sub {
+                bottom: -.25em
+            }
 
+            sup {
+                top: -.5em
+            }
 
+            table {
+                border-color: inherit;
+                text-indent: 0
+            }
 
+            iframe {
+                border-style: none
+            }
 
+            input {
+                border-radius: 0
+            }
 
+            [type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button {
+                height: auto
+            }
 
+            [type=search] {
+                appearance: textfield;
+                outline-offset: -2px
+            }
 
+            [type=search]::-webkit-search-decoration {
+                appearance: none
+            }
 
+            textarea {
+                overflow: auto;
+                resize: vertical
+            }
 
+            button,input,optgroup,select,textarea {
+                font: inherit;
+                color: inherit
+            }
 
+            optgroup {
+                font-weight: 700
+            }
 
+            button {
+                overflow: visible
+            }
 
+            button,select {
+                text-transform: none
+            }
 
+            button,[type=button],[type=reset],[type=submit],[role=button] {
+                cursor: pointer
+            }
 
+            button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner {
+                border-style: none;
+                padding: 0
+            }
 
+            button,html [type=button],[type=reset],[type=submit] {
+                appearance: auto
+            }
 
+            button,input,select,textarea {
+                background-color: transparent;
+                border-style: none
+            }
 
-<veepn-lock-screen><template shadowrootmode="open"><style>html{box-sizing:border-box;text-size-adjust:100%;word-break:normal;tab-size:4}*,:before,:after{background-repeat:no-repeat;box-sizing:border-box}:before,:after{text-decoration:inherit;vertical-align:inherit}*{padding:0;margin:0}hr{overflow:visible;height:0;color:inherit;border:0;border-top:1px solid}details,main{display:block}summary{display:list-item}small{font-size:80%}[hidden]{display:none!important}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}a{background-color:transparent}a:active,a:hover{outline-width:0}code,kbd,pre,samp{font-family:monospace}pre{font-size:1em}b,strong{font-weight:bolder}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-color:inherit;text-indent:0}iframe{border-style:none}input{border-radius:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{appearance:none}textarea{overflow:auto;resize:vertical}button,input,optgroup,select,textarea{font:inherit;color:inherit}optgroup{font-weight:700}button{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit],[role=button]{cursor:pointer}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button,html [type=button],[type=reset],[type=submit]{appearance:auto}button,input,select,textarea{background-color:transparent;border-style:none}button:-moz-focusring,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{outline:1px dotted ButtonText}select{appearance:none}a:focus,button:focus,input:focus,select:focus,textarea:focus{outline-width:0}select::-ms-expand{display:none}select::-ms-value{color:currentcolor}legend{border:0;color:inherit;display:table;white-space:normal;max-width:100%}::-webkit-file-upload-button{appearance:auto;color:inherit;font:inherit}[disabled]{cursor:default}img{border-style:none}progress{vertical-align:baseline}[aria-busy=true]{cursor:progress}[aria-controls]{cursor:pointer}[aria-disabled=true]{cursor:default}ul,ol{list-style-type:none}figure{margin:0}@keyframes slide-in{0%{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}.gradient-blue{background:radial-gradient(106.41% 128.47% at 50.15% 128.47%,#23abff,#3066ff)}.gradient-green{background:radial-gradient(92.26% 118.88% at 50.15% .13%,#00c3c3,#00aab3)}.gradient-purple{background:radial-gradient(165.12% 115.56% at 50.15% .13%,#a15aff,#00a0eb)}.bg-blue{background-color:#f2f5ff}.bg-purple{background-color:#f7f0ff}.bg-green{background-color:#ebffed}.lock-screen{font-family:FigtreeVF,sans-serif;letter-spacing:normal;position:fixed;z-index:2147483638;right:24px;bottom:24px;width:327px;border-radius:24px;overflow:hidden;box-shadow:0 24px 32px #00000014;animation:slide-in .3s ease-in-out forwards}.lock-screen__content{position:relative;padding:24px 24px 64px}.lock-screen__close{position:absolute;top:16px;right:16px;width:24px;height:24px;display:flex;align-items:center;justify-content:center;opacity:.5}.lock-screen__label{height:26px;width:fit-content;border-radius:50px;background-color:#fff3;padding-inline:16px;display:flex;align-items:center;justify-content:center;gap:8px;color:#fff;font-size:12px;line-height:18px;margin:-8px auto 16px}.lock-screen__title{color:#fff;text-align:center;font-size:20px;line-height:28px;font-weight:600;margin-bottom:8px}.lock-screen__description{color:#f5f6f7;text-align:center;font-size:14px;line-height:20px}.lock-screen__description b{font-weight:600}.lock-screen__card{position:relative;z-index:1;margin-top:-44px;background-color:#fff;border-radius:24px;padding:32px 20px 20px}.lock-screen__inner{margin-bottom:24px}.lock-screen__submit{display:flex;align-items:center;justify-content:center;gap:10px;font-weight:700;font-size:16px;height:40px;width:100%;border-radius:12px;padding-inline:16px;background-color:#f70;color:#fff;margin-bottom:16px}.lock-screen__skip{display:flex;align-items:center;justify-content:center;font-size:14px;line-height:20px;color:#82829c;margin-inline:auto}.price-card{border:1px solid #f2f2fc;background:linear-gradient(254.14deg,#fafbff .04%,#f5f8ff 100.04%);border-radius:24px;padding:24px 28px}.price-card__label{color:#4a5764;text-align:center;font-size:14px;line-height:20px;text-transform:uppercase;margin-bottom:16px}.price-card__price{display:flex;justify-content:center;align-items:flex-start;column-gap:2px;margin-bottom:12px}.price-card__currency{color:#515478;font-size:18px;line-height:28px}.price-card__number{color:#14142a;text-align:center;font-size:64px;line-height:54px}.price-card__wrap{display:flex;flex-direction:column}.price-card__decimal{color:#515478;font-size:18px;line-height:28px;font-weight:600}.price-card__period{color:#515478;font-size:14px;line-height:20px;margin-top:-6px}.price-card__discount{position:relative;display:flex;align-items:center;justify-content:center;margin-bottom:12px}.price-card__discount-divider{position:absolute;z-index:0;top:50%;left:0;width:100%;height:1px;background-color:#dbe2f9;transform:translateY(-50%)}.price-card__discount-icon{position:absolute;z-index:1;top:50%;left:50%;transform:translate(-50%,-50%)}.price-card__discount-text{position:relative;z-index:2;color:#fff;font-size:12px;font-weight:600;line-height:18px}.price-card__features{display:flex;align-items:center;justify-content:center;column-gap:16px}.price-card__feature{color:#222e3a;font-size:14px;line-height:20px;display:flex;align-items:center;gap:6px}.price-card__feature:before{content:"";display:block;width:4px;height:4px;background-color:#20df9e;border-radius:50%;flex-shrink:0}.features-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.features-list__item{display:flex;flex-direction:column;align-items:center;gap:6px}.features-list__icon{width:52px;height:52px;border-radius:12px;display:flex;align-items:center;justify-content:center}.features-list__text{color:#293a53;text-align:center;font-size:16px;line-height:24px;letter-spacing:-.1px}</style></template><style>@font-face{font-family:FigtreeVF;src:url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2 supports variations"),url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2-variations");font-weight:100 1000;font-display:swap}</style></veepn-lock-screen></body></html>
+            button:-moz-focusring,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner {
+                outline: 1px dotted ButtonText
+            }
 
+            select {
+                appearance: none
+            }
 
+            a:focus,button:focus,input:focus,select:focus,textarea:focus {
+                outline-width: 0
+            }
 
+            select::-ms-expand {
+                display: none
+            }
 
+            select::-ms-value {
+                color: currentcolor
+            }
 
+            legend {
+                border: 0;
+                color: inherit;
+                display: table;
+                white-space: normal;
+                max-width: 100%
+            }
 
+            ::-webkit-file-upload-button {
+                appearance: auto;
+                color: inherit;
+                font: inherit
+            }
 
+            [disabled] {
+                cursor: default
+            }
 
+            img {
+                border-style: none
+            }
+
+            progress {
+                vertical-align: baseline
+            }
+
+            [aria-busy=true] {
+                cursor: progress
+            }
+
+            [aria-controls] {
+                cursor: pointer
+            }
+
+            [aria-disabled=true] {
+                cursor: default
+            }
+
+            ul,ol {
+                list-style-type: none
+            }
+
+            figure {
+                margin: 0
+            }
+
+            @keyframes slide-in {
+                0% {
+                    opacity: 0;
+                    transform: translateY(16px)
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0)
+                }
+            }
+
+            .gradient-blue {
+                background: radial-gradient(106.41% 128.47% at 50.15% 128.47%,#23abff,#3066ff)
+            }
+
+            .gradient-green {
+                background: radial-gradient(92.26% 118.88% at 50.15% .13%,#00c3c3,#00aab3)
+            }
+
+            .gradient-purple {
+                background: radial-gradient(165.12% 115.56% at 50.15% .13%,#a15aff,#00a0eb)
+            }
+
+            .bg-blue {
+                background-color: #f2f5ff
+            }
+
+            .bg-purple {
+                background-color: #f7f0ff
+            }
+
+            .bg-green {
+                background-color: #ebffed
+            }
+
+            .lock-screen {
+                font-family: FigtreeVF,sans-serif;
+                letter-spacing: normal;
+                position: fixed;
+                z-index: 2147483638;
+                right: 24px;
+                bottom: 24px;
+                width: 327px;
+                border-radius: 24px;
+                overflow: hidden;
+                box-shadow: 0 24px 32px #00000014;
+                animation: slide-in .3s ease-in-out forwards
+            }
+
+            .lock-screen__content {
+                position: relative;
+                padding: 24px 24px 64px
+            }
+
+            .lock-screen__close {
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                width: 24px;
+                height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: .5
+            }
+
+            .lock-screen__label {
+                height: 26px;
+                width: fit-content;
+                border-radius: 50px;
+                background-color: #fff3;
+                padding-inline:16px;display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                color: #fff;
+                font-size: 12px;
+                line-height: 18px;
+                margin: -8px auto 16px
+            }
+
+            .lock-screen__title {
+                color: #fff;
+                text-align: center;
+                font-size: 20px;
+                line-height: 28px;
+                font-weight: 600;
+                margin-bottom: 8px
+            }
+
+            .lock-screen__description {
+                color: #f5f6f7;
+                text-align: center;
+                font-size: 14px;
+                line-height: 20px
+            }
+
+            .lock-screen__description b {
+                font-weight: 600
+            }
+
+            .lock-screen__card {
+                position: relative;
+                z-index: 1;
+                margin-top: -44px;
+                background-color: #fff;
+                border-radius: 24px;
+                padding: 32px 20px 20px
+            }
+
+            .lock-screen__inner {
+                margin-bottom: 24px
+            }
+
+            .lock-screen__submit {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                font-weight: 700;
+                font-size: 16px;
+                height: 40px;
+                width: 100%;
+                border-radius: 12px;
+                padding-inline:16px;background-color: #f70;
+                color: #fff;
+                margin-bottom: 16px
+            }
+
+            .lock-screen__skip {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px;
+                line-height: 20px;
+                color: #82829c;
+                margin-inline:auto}
+
+            .price-card {
+                border: 1px solid #f2f2fc;
+                background: linear-gradient(254.14deg,#fafbff .04%,#f5f8ff 100.04%);
+                border-radius: 24px;
+                padding: 24px 28px
+            }
+
+            .price-card__label {
+                color: #4a5764;
+                text-align: center;
+                font-size: 14px;
+                line-height: 20px;
+                text-transform: uppercase;
+                margin-bottom: 16px
+            }
+
+            .price-card__price {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                column-gap: 2px;
+                margin-bottom: 12px
+            }
+
+            .price-card__currency {
+                color: #515478;
+                font-size: 18px;
+                line-height: 28px
+            }
+
+            .price-card__number {
+                color: #14142a;
+                text-align: center;
+                font-size: 64px;
+                line-height: 54px
+            }
+
+            .price-card__wrap {
+                display: flex;
+                flex-direction: column
+            }
+
+            .price-card__decimal {
+                color: #515478;
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 600
+            }
+
+            .price-card__period {
+                color: #515478;
+                font-size: 14px;
+                line-height: 20px;
+                margin-top: -6px
+            }
+
+            .price-card__discount {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 12px
+            }
+
+            .price-card__discount-divider {
+                position: absolute;
+                z-index: 0;
+                top: 50%;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background-color: #dbe2f9;
+                transform: translateY(-50%)
+            }
+
+            .price-card__discount-icon {
+                position: absolute;
+                z-index: 1;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%)
+            }
+
+            .price-card__discount-text {
+                position: relative;
+                z-index: 2;
+                color: #fff;
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 18px
+            }
+
+            .price-card__features {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                column-gap: 16px
+            }
+
+            .price-card__feature {
+                color: #222e3a;
+                font-size: 14px;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+                gap: 6px
+            }
+
+            .price-card__feature:before {
+                content: "";
+                display: block;
+                width: 4px;
+                height: 4px;
+                background-color: #20df9e;
+                border-radius: 50%;
+                flex-shrink: 0
+            }
+
+            .features-list {
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                gap: 12px
+            }
+
+            .features-list__item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 6px
+            }
+
+            .features-list__icon {
+                width: 52px;
+                height: 52px;
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center
+            }
+
+            .features-list__text {
+                color: #293a53;
+                text-align: center;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -.1px
+            }
+        </style>
+    </template>
+    <style>
+        @font-face {
+            font-family: FigtreeVF;
+            src: url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2 supports variations"),url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2-variations");
+            font-weight: 100 1000;
+            font-display: swap
+        }
+    </style>
+</veepn-lock-screen>
+</body></html>
