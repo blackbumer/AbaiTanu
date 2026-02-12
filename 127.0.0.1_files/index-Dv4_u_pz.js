@@ -19856,7 +19856,9 @@ const I4 = S.forwardRef( ({className: l, ...s}, o) => u.jsx("div", {
     ...s
 }));
 I4.displayName = "CardFooter";
-const P4 = "/static/abai-muse/assets/abautAbai-CYuNmZ-6.mp4";
+const PS = "/static/abai-muse/assets/abautAbai-CYuNmZ-6.mp4"
+  , $S = "/static/abai-muse/assets/AbaiTanuOzektiMaseleler-eulIu2AU.pdf"
+  , e2 = "/static/abai-muse/assets/AbaiTanu-CExXpU-7.pdf";
 function $4() {
     const [l,s] = S.useState(null);
     S.useEffect( () => {
@@ -20139,7 +20141,7 @@ children: u.jsx("iframe", {
                         id: "abai_tanu",
                         className: "py-3 bg-muted/30 relative section-reveal"
                     }), u.jsxs("div", {
-                        className: "text-center space-y-4",
+                    className: "text-center space-y-4",
                         children: [u.jsx("h2", {
                             className: "text-3xl md:text-4xl font-serif text-primary",
                             children: "Абайтану"
@@ -20147,9 +20149,59 @@ children: u.jsx("iframe", {
                             className: "w-24 h-1 bg-secondary mx-auto"
                         })]
                     }), u.jsxs("p", {
-                        children: ["Абайтану қазақ әдебиеттану ғылымының саласы. Абайтану Абайдың өмірі мен шығармашылық өнері, философиясы, қоғамдық, эстететикалық көзқарастары, қазақ халық поэзиясындағы өлең жүйесін, ақындық тілді дамытудағы үлесі, музыкалық мұрасы жайлы сан-салалы зерттеу еңбектерін қамтиды. Абайдың өмірі мен шығармашылық мұрасын зерттеу шын мәнінде Әлихан Бөкейханов, Ахмет Байтұрсынұлы, Міржақып Дулатұлы мақалаларынан басталды деуге болады.", u.jsx("div", {
+                        children: ["Абайтану – қазақ әдебиеттану ғылымындағы маңызды сала, ол ұлы ақын Абай Құнанбайұлының өмірі, шығармашылығы, философиялық көзқарастары мен рухани мұрасын жан-жақты зерттейді. Абайтану ХХ ғасырдың басында қалыптасып, кейін ғылыми жүйеге түсті. Бұл бағытта Абайдың өлеңдері мен қара сөздері, адамгершілік ілімі, ағартушылық ойлары, қоғам туралы пікірлері талданады. Сонымен бірге ақынның шығыс және батыс мәдениетімен байланысы, қазақ руханиятына қосқан үлесі зерттеледі. Абайтану – тек әдеби бағыт қана емес, ол философия, тарих, мәдениеттану салаларымен де тығыз байланысты.", u.jsxs("div", {
+                              className: "text-center space-y-4",
+                        children: [u.jsx("h2", {
+                            className: "text-3xl md:text-4xl font-serif text-primary",
+                            children: "Мекемтас Мырзахметұлы"
+                        }), u.jsx("div", {
+                            className: "w-24 h-1 bg-secondary mx-auto"
+                        })]
+                        }), u.jsx("div", {
                             className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                        }), "Ахмет Байтұрсынұлы 1913 ж. «Қазақ» газетінде басылған «Абай – қазақтың бас ақыны» атты мақаласында «Одан асқан бұрын-соңғы заманда қазақ баласында біз білетін ақын болған жоқ» – деп Абайды аса жоғары бағалады. Абай шығармаларын жинап, қағазға түсіріп, реттеп, баспаға дайындау ісі ақын қайтыс болған соң ұзамай-ақ қолға алынғанын дәлелдейтін нақтылы деректер жетерлік. Жарық көруінен бірнеше жыл бұрын құрастырылып, 1909 жылы Санкт-Петербургте басылған Абай өлеңдерінің жинағында ақынның жүз қырықтай өлеңі (аударма өлеңдерін қосып санағанда) мен «Ескендір», «Масғұт» поэмалары басылғаны, яғни осы күнгі белгілі поэзиялық шығармаларының көрнектілері түгелге жуық қамтылды."]
+                        }), "Мекемтас Мырзахметұлы – көрнекті абайтанушы ғалым, филология ғылымдарының докторы, профессор. Ол Абай мұрасындағы рухани-философиялық мәселелерді, әсіресе «толық адам» ілімін терең зерттеген. Ғалым Абай шығармаларындағы шығыс әдебиеті мен ислам дүниетанымының әсерін ғылыми тұрғыдан талдап, жаңа көзқарас ұсынды. Көптеген ғылыми еңбектер жазып, абайтану мектебінің дамуына үлкен үлес қосты. Ұстаз ретінде көптеген жас ғалымдарды тәрбиелеп, қазақ әдебиеттануының өркендеуіне ықпал етті.", u.jsxs("div", {
+                            className: "pt-4 flex flex-wrap items-center gap-4",
+                            children: [u.jsxs("a", {
+                                href: "#abai_tanu",
+                                className: "group inline-flex items-center gap-2 text-primary font-medium uppercase tracking-widest text-sm hover:gap-4 transition-all",
+                                children: ["Толық оқу ", u.jsx("span", {
+                                    className: "text-xl",
+                                    children: "→"
+                                })]
+                            }), u.jsx("a", {
+                                href: e2,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "inline-flex items-center gap-2 rounded-full bg-secondary text-secondary-foreground px-4 py-2 text-xs font-semibold uppercase tracking-widest hover:opacity-90 transition-opacity",
+                                children: "Абайтану"
+                            })]
+                        }), u.jsx("div", {
+                            className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
+                        }), u.jsxs("div", {
+                            className: "text-center space-y-4",
+                        children: [u.jsx("h2", {
+                            className: "text-3xl md:text-4xl font-serif text-primary",
+                            children: "Мақсат Әліпхан"
+                        }), u.jsx("div", {
+                            className: "w-24 h-1 bg-secondary mx-auto"
+                        })]
+                        }), "Мақсат Әліпхан – қазіргі қазақ әдебиеттану саласында еңбек етіп жүрген зерттеуші, абайтану мәселелеріне де назар аударған ғалымдардың бірі. Оның еңбектерінде Абай мұрасы, ұлттық руханият, әдеби үрдіс және қазақ әдебиетінің тарихи дамуы қарастырылады. Ғалым Абай шығармаларының тәрбиелік, танымдық маңызын түсіндіруге, оны жас ұрпаққа жеткізуге үлес қосып келеді. Ғылыми мақалалар жазып, білім беру саласында дәріс оқып, әдебиеттану бағытындағы зерттеулерді насихаттауда белсенді.", u.jsxs("div", {
+                            className: "pt-4 flex flex-wrap items-center gap-4",
+                            children: [u.jsxs("a", {
+                                href: "#abai_tanu",
+                                className: "group inline-flex items-center gap-2 text-primary font-medium uppercase tracking-widest text-sm hover:gap-4 transition-all",
+                                children: ["Толық оқу ", u.jsx("span", {
+                                    className: "text-xl",
+                                    children: "→"
+                                })]
+                            }), u.jsx("a", {
+                                href: $S,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "inline-flex items-center gap-2 rounded-full bg-secondary text-secondary-foreground px-4 py-2 text-xs font-semibold uppercase tracking-widest hover:opacity-90 transition-opacity",
+                                children: "Абайтанудың өзекті мәселелері"
+                            })]
+                        })]
                     }), u.jsxs("div", {
                         className: "text-center space-y-4",
                         children: [u.jsx("h2", {
