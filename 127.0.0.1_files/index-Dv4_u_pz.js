@@ -21471,9 +21471,9 @@ function $4() {
                             title: "Шығармашылық кезең",
                             desc: "Ең әйгілі өлеңдері мен ой-толғамдарын жазды."
                         }, {
-                            year: "1904",
-                            title: "Мұра",
-                            desc: "Қазақ жазба әдебиетінің негізін қалады."
+                            year: "1895–1904",
+                            title: "Кемелдік, философиялық кезең",
+                            desc: "Терең философиялық, моральдық ойларға ден қойды."
                         }].map( (c, f) => u.jsx(Nn, {
                             className: "bg-background/50 border-none shadow-sm hover:shadow-md transition-shadow",
                             children: u.jsxs(jn, {
