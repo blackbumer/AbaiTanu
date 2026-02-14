@@ -19732,7 +19732,11 @@ const V4 = k4
 }));
 X4.displayName = pg.displayName;
 const Z4 = "data:image/png;base64,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"
-  , Oh = [{
+  , Oh = [
+    {
+    href: "/tolyq_adam",
+    label: "Толық Адам"
+}, {
     href: "/#biography",
     label: "Өмірбаяны"
 }, {
@@ -19740,23 +19744,17 @@ const Z4 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAA
     label: "Қара сөздер"
 }, {
     href: "/#abai_tanu",
-    label: "Абай Тану"
+    label: "Абайтану"
 }, {
     href: "/iran-gaiyp",
     label: "Иран-Ғайып"
-}, {
-    href: "/tolyq_adam",
-    label: "Толық Адам"
-}, {
+},  {
     href: "/tests",
     label: "Тест"
 }, {
     href: "/#poetry",
     label: "Өлеңдер"
-}, {
-    href: "/#legacy",
-    label: "Мұрасы"
-}];
+}, ];
 function gl() {
     const [l,s] = S.useState(!1);
     return S.useEffect( () => {
@@ -21874,17 +21872,17 @@ function f2() {
                         className: "pt-4 flex flex-wrap items-center gap-4 mb-27.5"
                     }), u.jsx("h1", {
                         className: "text-4xl md:text-6xl font-serif text-foreground",
-                        children: "Абайдың «ТОЛЫҚ АДАМ» идеясы және ИРАН-ҒАЙЫПТЫҢ «БҮТІН-АДАМЫ»"
+                        children: "Абай Құнанбайұлының «ТОЛЫҚ АДАМ» iлімі"
                     }), u.jsx("p", {
                         className: "text-secondary uppercase tracking-[0.2em] text-xs font-semibold",
-                        children: "Абай мен Иранбек (Иран‑Ғайып) Оразбаевтың идеялары адамды жан-жақты дамыған, моральдық және рухани кемелдікке жеткен толық тұлға ретінде көргендіктен үндеседі."
+                        children: ""
                     }), u.jsxs("p", {
                         className: "text-muted-foreground leading-relaxed text-lg",
                         children: [u.jsx("div", {
                             className: "pt-4 flex flex-wrap items-center gap-4 mb-13.5"
                         }), u.jsx("p", {
                             className: "text-xl text-muted-foreground leading-relaxed font-serif italic border-l-2 border-secondary",
-                            children: "Абайдың «Толық адам» идеясы мен Иранбек (Иран-Ғайып) Оразбаевтың «Бүтін-адамы» – қазақ рухани философиясындағы адам кемелдігі туралы екі түрлі, бірақ бір-бірімен сабақтас концепция."
+                            children: "Абай Құнанбайұлының «толық адам» ілімі — адамгершілік, ақыл, жүрек, қайрат үйлесімі арқылы кемелденген тұлға болу туралы ойлары."
                         })]
                     })]
                 })
@@ -21898,159 +21896,18 @@ function f2() {
                     className: "max-w-2xl mx-auto text-center space-y-4 mb-12",
                     children: u.jsx("h2", {
                         className: "text-3xl md:text-4xl font-serif text-foreground",
-                        children: "Абайдың «Толық адам» идеясы мен Иранбек (Иран‑Ғайып) Оразбаевтың «Бүтін-адам» тұжырымы"
-                    })
-                }), u.jsxs("p", {
-                    className: "text-muted-foreground",
-                    children: ["Абай Құнанбаев қазақ философиясының және әдебиетінің орталық тұлғасы ретінде адамның кемелдігі, оның жан-жақты дамуы мәселесін өмір бойы қарастырды. Абай үшін «толық адам» идеясы тек білімді болумен шектелмейді; ол адамгершілік, мәдениет, рухани кемелдік және қоғам алдындағы жауапкершілікті қамтитын тұтас ұғым болып табылады. Абай өлеңдері мен қара сөздерінде адамның ішкі жан-дүниесін дамыту, ақыл мен ойдың үстемдігін орнату арқылы толық тұлғаға айналу маңызды деп көрсетеді. Ол білімділікті өмірдің ажырамас бөлігі деп санаған, өйткені тек білім арқылы адам өз ой-өрісін кеңейтіп, қоғамдағы орнын таба алады. Сонымен бірге, Абай «адамгершілік – адамның ең басты қасиеті» деген ұғымды үнемі баса айтты. Толық адам тек өз қызығушылықтары мен қажеттіліктерін ойламай, қоғамға пайдалы іс жасауға талпынуы керек. Бұл идея қазақ қоғамындағы рухани кемшіліктерді түзетуге, адамдардың бір-біріне сыйластық пен әділдік танытуына бағытталған.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "Абайдың «толық адам» тұжырымында мәдениет пен шығармашылық та маңызды рөл атқарады. Өнер, поэзия, музыка арқылы адам өз бойындағы эстетикалық сезім мен эмоцияны дамытады, рухани байлыққа жетеді. Бұл тұрғыда Абай үшін адам кемелдігі – тек жеке тұлғаның емес, бүкіл қоғамның дамуына әсер ететін құндылық. Сонымен қатар, Абай философиясында адам өзінің ішкі әлемімен қатар, сыртқы әлемді, қоғамды түсініп, оған жауапкершілікпен қарауы тиіс.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "Ал Иранбек (Иран‑Ғайып) Оразбаевтың «Бүтін-адам» тұжырымы да адамның толықтығын көздесе де, оны рухани тұрғыдан сипаттайды. Иранбек Оразбаев философиялық көзқарасында адамды тек физикалық немесе әлеуметтік аспектілері арқылы емес, оның ішкі рухани кемелдігі арқылы бағалайды. «Бүтін-адам» идеясы адамның өз бойындағы моральдық және рухани қасиеттерді дамытуға негізделеді. Бұл философияда адам кемелдікке жету үшін өзін жетілдіру, әділдік, мейірімділік, шындық сияқты қасиеттерді бойына сіңіруі керек. Сонымен бірге, Иранбек Оразбаевтың тұжырымы рухани тәжірибе мен ішкі үйлесімге баса мән береді. Адам рухани дамыған сайын, ол өмірдің мәнін терең түсініп, өз бойындағы әлеуетті толық ашады.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "Екі ойды салыстырсақ, олардың арасындағы басты айырмашылықтарды байқауға болады. Абайдың «толық адам» идеясы әлеуметтік және мәдени дамуға, қоғамдағы орнына, білім мен өнер арқылы тұлғаның кемелдігіне бағытталған. Ал Иранбек Оразбаевтың «Бүтін-адам» тұжырымы рухани кемелдік пен ішкі үйлесімге, адамның өз бойындағы моральдық және рухани қасиеттерін дамытуға мән береді. Дегенмен, екі идеяның түйіні бір – адам өзінің кемелдігіне жету үшін өзін үздіксіз жетілдіруі керек, өзінің ішкі әлемі мен сыртқы әрекеттерін үйлестіруі қажет.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "Қорыта айтқанда, Абай мен Иранбек Оразбаевтың философиялық идеялары адамның толық тұлға ретінде қалыптасуына бағытталған. Абайдың тұжырымы мәдени, әлеуметтік және моральдық аспектілерге көңіл бөлсе, Иранбек Оразбаевтың ойында адамның рухани және моральдық дамуы басты орын алады. Екі идея да адам өміріндегі кемелдікке, жан-жақты дамуға және қоғамға пайдалы болуға шақырады, бірақ әрқайсысы өзіндік жолмен – біреуі сыртқы және әлеуметтік, екіншісі ішкі рухани дамуды баса көрсетеді. Осы тұрғыдан қарағанда, қазақ философиясы мен қазіргі замандағы ойшылдардың көзқарасы адамның толық болуы мен кемелдігі мәселесінде үндестік табады.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-7.5"
-                    })]
-                })]
-            })
-        }), u.jsx("section", {
-            id: "iran-biography",
-            className: "py-20 bg-background",
-            children: u.jsxs("div", {
-                className: "container mx-auto px-6",
-                children: [u.jsx("div", {
-                    className: "max-w-2xl mx-auto text-center space-y-4 mb-12",
-                    children: u.jsx("h2", {
-                        className: "text-3xl md:text-4xl font-serif text-foreground",
                         children: "Абайдың «Толық адам» идеясы"
                     })
                 }), u.jsxs("p", {
                     className: "text-muted-foreground",
-                    children: ["Абай Құнанбаевтың «толық адам» (немесе «өмірін терең сезінген, жан-жақты дамыған адам») идеясы қазақ әдебиеті мен философиясында маңызды орын алады. Бұл ұғым бірнеше аспектілерді қамтиды:", u.jsx("div", {
+                    children: ["Абай Құнанбайұлының «Толық адам» идеясы – қазақ руханиятындағы терең философиялық тұжырымдардың бірі. Бұл ұғым адам болмысының кемелденуін, ішкі жан дүниесінің тазарып, ақыл-парасат пен адамгершілік қасиеттердің үйлесім табуын білдіреді. Абай адамның шынайы бақытқа жетуі үшін тек білімді немесе күшті болуы жеткіліксіз екенін айтады. Оның пікірінше, адам бойында ақыл, жүрек және қайрат тең дәрежеде дамуы керек. Осы үш қасиет біріккен кезде ғана адам өзін де, қоғамды да жақсылыққа бастай алады.", u.jsx("div", {
                         className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), u.jsx("p", {
-                        className: "text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6",
-                        children: "Зияткерлік дамуы"
-                    }), u.jsx("div", {
+                    }), "Абай «толық адамды» рухани бай, әділ, мейірімді, еңбекқор тұлға ретінде сипаттайды. Мұндай адам өз пайдасын ғана емес, елінің, қоғамының игілігін ойлайды. Ол өтірік, мақтаншақтық, еріншектік сияқты жаман әдеттерден аулақ болады. Ақын жастарды білім алуға, ғылымға ұмтылуға шақырып, адамды жетілдіретін басты құрал – үздіксіз ізденіс пен еңбек екенін көрсетеді. Сонымен қатар, жүректің тазалығы мен адамға деген сүйіспеншілік – толық адам болудың маңызды шарты.", u.jsx("div", {
                         className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-  Абай үшін адам білімді, ойлы болу керек. Ол өзінің өлеңдерінде білім мен ғылымның маңызын жиі көтереді.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-0.3"
-                    }), "-  Мысалы, «Ақыл адамға қонбаса, өмір бітпес» дегендей, ой мен білім адамның толығуына негіз болады.", u.jsx("div", {
+                    }), "Абай «толық адамды» рухани бай, әділ, мейірімді, еңбекқор тұлға ретінде сипаттайды. Мұндай адам өз пайдасын ғана емес, елінің, қоғамының игілігін ойлайды. Ол өтірік, мақтаншақтық, еріншектік сияқты жаман әдеттерден аулақ болады. Ақын жастарды білім алуға, ғылымға ұмтылуға шақырып, адамды жетілдіретін басты құрал – үздіксіз ізденіс пен еңбек екенін көрсетеді. Сонымен қатар, жүректің тазалығы мен адамға деген сүйіспеншілік – толық адам болудың маңызды шарты.", u.jsx("div", {
                         className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), u.jsx("p", {
-                        className: "text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6",
-                        children: "Моральдық және рухани кемелдену"
-                    }), u.jsx("div", {
+                    }), "Абайдың ойынша, толық адам болу – бір күнде жететін мақсат емес, бұл ұзақ әрі үздіксіз даму жолы. Әр адам өз мінезін тәрбиелеп, қателіктерін түсініп, жақсылыққа ұмтылған сайын кемелдікке жақындай түседі. Бұл идея бүгінгі қоғам үшін де өзекті, себебі адамгершілік құндылықтарды сақтау мен рухани дамуға ұмтылу – кез келген заманда маңызды.", u.jsx("div", {
                         className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-  Адам тек ақылды ғана емес, адал, әділ, мейірімді болуы керек.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-0.3"
-                    }), "-  Абай «Адамның адамшылығы – адамгершілікте» дегенді айтып, ішкі рухани дамуға ерекше мән береді.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), u.jsx("p", {
-                        className: "text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6",
-                        children: "Өз-өзіне және қоғамға жауапкершілік"
-                    }), u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-  «Толық адам» – өзіне ғана емес, қоғамға да пайдалы болу жолында әрекет ететін адам.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-0.3"
-                    }), "-  Абай қазақ қоғамының кемшіліктерін сынға алады және адамдарды білім мен өнерге шақырады.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), u.jsx("p", {
-                        className: "text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6",
-                        children: "Шығармашылық және мәдени дамуы"
-                    }), u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "Өлең, музыка, философия арқылы адам өзін толық ашады. Абайдың ойынша, мәдениет пен өнер адам рухын байытады.", u.jsxs("h2", {
-                        className: "text-secondary font-sans uppercase tracking-[0.2em] text-sm font-semibold mb-1.5",
-                        children: [u.jsx("div", {
-                            className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                        }), "Қорытынды: Абайдың «толық адам» идеясы – білімді, рухани кемел, моральдық жауапкершілігі мол, өз қоғамына пайдалы жан-жақты дамыған адам.", u.jsx("div", {
-                            className: "pt-4 flex flex-wrap items-center gap-4 mb-7.5"
-                        })]
-                    })]
-                })]
-            })
-        }), u.jsx("section", {
-            id: "iran-works",
-            className: "py-20 bg-primary/5",
-            children: u.jsxs("div", {
-                className: "container mx-auto px-6",
-                children: [u.jsx("div", {
-                    className: "max-w-2xl mx-auto text-center space-y-4 mb-12",
-                    children: u.jsx("h2", {
-                        className: "text-3xl md:text-4xl font-serif text-foreground",
-                        children: "Иран-Ғайыптың «Бүтін-адам» идеясы"
-                    })
-                }), u.jsxs("p", {
-                    className: "text-muted-foreground",
-                    children: [u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "Иран-Ғайып шығармаларында «бүтін-адам» — адамның ішкі тұтастығы мен рухани-адамгершілік үйлесімін білдіретін философиялық образ. Ақын адамның бөлшектеніп, рухани әлсіреп бара жатқан заманда қайтадан тұтас болуын армандайды.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), u.jsx("p", {
-                        className: "text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6",
-                        children: "Ішкі тұтастық (жан мен сана бірлігі)"
-                    }), u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-   Бүтін-адам — өз «менін» жоғалтпаған, ішкі әлемі мен сыртқы әрекеті үйлескен адам.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-0.5"
-                    }), "-   Ол екіжүзділікке, жасандылыққа қарсы тұрады.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-0.5"
-                    }), "-   Адамның сөзі мен ісі, ойы мен жүрегі бір бағытта болуы — басты белгі.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), u.jsx("p", {
-                        className: "text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6",
-                        children: "Рухани еркіндік"
-                    }), u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-   Иран-Ғайып үшін бүтін-адам — рухани тәуелсіз тұлға.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-0.5"
-                    }), "-   Қоғамдағы әділетсіздікке қарсы ой айта алатын, өз ар-ожданын сақтайтын адам.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-0.5"
-                    }), "-   Бұл жерде ақын тұлғаның ішкі еркіндігі мен азаматтық позициясын ерекше көрсетеді.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-0.5"
-                    }), u.jsx("p", {
-                        className: "text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6",
-                        children: "Адамгершілік және ар-ождан"
-                    }), u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-   Бүтін-адам — әділ, мейірімді, арлы адам. -   Бұл жерде ақын тұлғаның ішкі еркіндігі мен азаматтық позициясын ерекше көрсетеді.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-0.5"
-                    }), "Ақын поэзиясында рухани құндылықтардың жоғалуы жиі сыналады, ал бүтін-адам — сол құндылықтарды сақтаушы бейне.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), u.jsx("p", {
-                        className: "text-xl text-muted-foreground leading-relaxed max-w-lg font-serif italic border-l-2 border-secondary pl-6",
-                        children: "Ұлттық сана мен рух"
-                    }), u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-   Иран-Ғайып адамды тек жеке тұлға емес, ұлт рухының жалғасы ретінде көреді.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-0.5"
-                    }), "-   Бүтін-адам — ұлттық мәдениетті, тілді, тарихи жадты құрметтейтін тұлға.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), u.jsx("h2", {
-                        className: "text-secondary font-sans uppercase tracking-[0.2em] text-sm font-semibold mb-1.5",
-                        children: "Иран-Ғайыптың поэзиясындағы ерекшелік"
-                    }), "Оның «бүтін-адам» идеясы көбіне замана сыны арқылы беріледі: рухани дағдарыс, қоғамдағы құндылықтардың өзгеруі.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "Ақын адамды «сынық», «жартыкеш» күйден шығарып, тұтас тұлға болуға шақырады.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "Поэзиясы философиялық, символдық және эмоциялық тереңдігімен ерекшеленеді.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), u.jsx("h2", {
-                        className: "text-secondary font-sans uppercase tracking-[0.2em] text-sm font-semibold mb-1.5",
-                        children: "Қысқаша қорытынды"
-                    }), "Иран-Ғайыптың «бүтін-адамы» —", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-   ішкі әлемі мен іс-әрекеті үйлескен;", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-   рухани еркін әрі арлы;", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-   ұлттық санасы бар;", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-1.5"
-                    }), "-   қоғамға сын көзбен қарайтын, бірақ адамгершілікті сақтайтын тұтас тұлға.", u.jsx("div", {
-                        className: "pt-4 flex flex-wrap items-center gap-4 mb-7.5"
                     })]
                 })]
             })
