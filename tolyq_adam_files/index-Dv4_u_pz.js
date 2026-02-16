@@ -19732,28 +19732,27 @@ const V4 = k4
 }));
 X4.displayName = pg.displayName;
 const Z4 = "data:image/png;base64,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"
-  , Oh = [
-    {
-    href: "/tolyq_adam",
+  , Oh = [{
+   href: "/tolyq_adam",
     label: "Толық Адам"
-}, {
+},{
     href: "/#biography",
     label: "Өмірбаяны"
 }, {
     href: "/book-of-words",
     label: "Қара сөздер"
+},  {
+    href: "/#poetry",
+    label: "Өлеңдер"
 }, {
     href: "/#abai_tanu",
     label: "Абайтану"
 }, {
     href: "/iran-gaiyp",
     label: "Иран-Ғайып"
-},  {
+}, {
     href: "/tests",
     label: "Тест"
-}, {
-    href: "/#poetry",
-    label: "Өлеңдер"
 }, ];
 function gl() {
     const [l,s] = S.useState(!1);
