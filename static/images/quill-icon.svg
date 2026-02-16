@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef3ef"/>
+      <stop offset="100%" stop-color="#d8e2d8"/>
+    </linearGradient>
+    <linearGradient id="feather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdfbf5"/>
+      <stop offset="100%" stop-color="#c7d2c6"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="220" rx="18" fill="url(#bg)"/>
+  <ellipse cx="220" cy="102" rx="74" ry="44" transform="rotate(-28 220 102)" fill="url(#feather)" stroke="#8c9e8c" stroke-width="4"/>
+  <path d="M138 158l104-104" stroke="#8c9e8c" stroke-width="4"/>
+  <path d="M148 148l84-84M162 154l70-70M176 160l56-56" stroke="#b4c0b4" stroke-width="2"/>
+  <path d="M104 170l34-34 22 22-34 34z" fill="#7a5b3a"/>
+  <rect x="94" y="182" width="124" height="12" rx="6" fill="#4c4c4c"/>
+  <circle cx="118" cy="188" r="4" fill="#f0f0f0"/>
+</svg>
