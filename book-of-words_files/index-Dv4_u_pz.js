@@ -19741,18 +19741,18 @@ const Z4 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAA
 }, {
     href: "/book-of-words",
     label: "Қара сөздер"
-},  {
-    href: "/#poetry",
-    label: "Өлеңдер"
 }, {
     href: "/#abai_tanu",
     label: "Абайтану"
 }, {
     href: "/iran-gaiyp",
     label: "Иран-Ғайып"
-}, {
+},  {
     href: "/tests",
     label: "Тест"
+}, {
+    href: "/#poetry",
+    label: "Өлеңдер"
 }, ];
 function gl() {
     const [l,s] = S.useState(!1);
